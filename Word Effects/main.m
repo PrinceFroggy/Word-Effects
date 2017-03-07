@@ -8,10 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char * argv[])
+{
     @autoreleasepool
     {
+        NSString *Option = @"1 = Uppercase | 2 = Lowercase | 3 = Numberize | 4 = Canadianize | 5 = Respond | 6 = De-Space-It";
         
+        while (TRUE)
+        {
+            NSLog(@"\n");
+            
+            NSLog(@"%@", Option);
+        }
     }
     return 0;
 }
